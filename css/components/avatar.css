@@ -1,0 +1,20 @@
+.avatar-bg,
+.avatar-md,
+.avatar-sm {
+  border-radius: 50%;
+}
+
+.avatar-bg {
+  /* border-radius: 50%; */
+  width: 6em;
+}
+
+.avatar-md {
+  /* border-radius: 50%; */
+  width: 4em;
+}
+
+.avatar-sm {
+  /* border-radius: 50%; */
+  width: 2em;
+}

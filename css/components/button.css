@@ -1,0 +1,29 @@
+/* Button General */
+.btn {
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+/* Button Main */
+.btn-main {
+  border: 2px solid #327161;
+  background: #327161;
+  color: #FFF;
+}
+
+.btn-main:hover {
+  border: 2px solid #205145;
+  background: #205145;
+}
+
+/* Button Ghost */
+.btn-ghost {
+  border: 2px solid #327161;
+  color: #327161;
+}
+
+.btn-ghost:hover {
+  border: 2px solid #205145;
+  color: #205145;
+}

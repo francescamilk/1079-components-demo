@@ -1,0 +1,58 @@
+.card-category {
+  width: 20em;
+  height: 10em;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  
+    url("https://loremflickr.com/400/200");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .1);
+
+  /* absolute centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-category h2 {
+  color: #FFF;
+}
+
+/* Card Product */
+.card-product {
+  background: #FFF;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .1);
+  width: 40em;
+  display: flex;
+  align-items: center;
+}
+
+.card-product img {
+  border-radius: 8px 0 0 8px;
+}
+
+.card-product div {
+  margin-left: 2em;
+}
+
+.card-product h2 {
+  margin-top: 0;
+}
+
+/* Card Trip */
+.card-trip {
+  background: #FFF;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .1);
+  width: 30em;
+  overflow: hidden;
+}
+
+.ct-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1em;
+}
